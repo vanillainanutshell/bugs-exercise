@@ -1,10 +1,10 @@
 const info = {
-  title: 'Multi Post Stories',
-  text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
-  image: 'imgs/snapshoot.svg',
-  technologies: ['html', 'Bootstrap', 'Ruby on rails'],
-  live: 'https://vanillainanutshell.github.io/Portfolio-project/',
-  source: 'https://github.com/vanillainanutshell/Portfolio-project',
+    title: 'Multi Post Stories',
+    text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
+    image: 'imgs/snapshoot.svg',
+    technologies: ['html', 'Bootstrap', 'Ruby on rails'],
+    live: 'https://vanillainanutshell.github.io/Portfolio-project/',
+    source: 'https://github.com/vanillainanutshell/Portfolio-project',
 };
 
 const popup = document.createElement('div');
@@ -28,14 +28,14 @@ popup.innerHTML = `
     </ul>
     </div>
 `;
-body.appendChild(popup);
+popup.appendChild(popup);
 const info2 = {
-  title: 'Keeping track of hundreds  of components website',
-  text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
-  image: 'imgs/snapshoot.svg',
-  technologies: ['html', 'Bootstrap', 'Ruby on rails'],
-  live: 'https://vanillainanutshell.github.io/Portfolio-project/',
-  source: 'https://github.com/vanillainanutshell/Portfolio-project',
+    title: 'Keeping track of hundreds  of components website',
+    text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
+    image: 'imgs/snapshoot.svg',
+    technologies: ['html', 'Bootstrap', 'Ruby on rails'],
+    live: 'https://vanillainanutshell.github.io/Portfolio-project/',
+    source: 'https://github.com/vanillainanutshell/Portfolio-project',
 };
 
 const popupD = document.createElement('div');
@@ -64,58 +64,58 @@ popupD.innerHTML = `
 `;
 body.appendChild(popupD);
 
-const popupbutton1 = document.getElementById('popupbtn1');
+const popupbutton1 = document.getElementsByClassName('popupbtn1');
 popupbutton1.addEventListener('click', () => {
-  popup.style.display = 'block';
+    popup.style.display = 'block';
 });
 const popupbutton2 = document.getElementById('popupbtn2');
 popupbutton2.addEventListener('click', () => {
-  popup.style.display = 'block';
+    popup.style.display = 'block';
 });
 const popupbutton3 = document.getElementById('popupbtn3');
 popupbutton3.addEventListener('click', () => {
-  popup.style.display = 'block';
+    popup.style.display = 'block';
 });
 const popupbutton4 = document.getElementById('popupbtn4');
 popupbutton4.addEventListener('click', () => {
-  popup.style.display = 'block';
+    popup.style.display = 'block';
 });
 const popupbutton5 = document.getElementById('popupbtn5');
 popupbutton5.addEventListener('click', () => {
-  popup.style.display = 'block';
+    popup.style.display = 'block';
 });
 const popupbutton6 = document.getElementById('popupbtn6');
 popupbutton6.addEventListener('click', () => {
-  popup.style.display = 'block';
+    popup.style.display = 'block';
 });
 const popupbutton7 = document.getElementById('popupbtn7');
 popupbutton7.addEventListener('click', () => {
-  popup.style.display = 'block';
+    popup.style.display = 'block';
 });
 const popupbutton8 = document.getElementById('popupbtn8');
 popupbutton8.addEventListener('click', () => {
-  popupD.style.display = 'block';
+    popupD.style.display = 'block';
 });
 const popupbutton9 = document.getElementById('popupbtn9');
 popupbutton9.addEventListener('click', () => {
-  popupD.style.display = 'block';
+    popupD.style.display = 'block';
 });
 const span2 = document.getElementById('closer');
 span2.addEventListener('click', () => {
-  popup.style.display = 'none';
+    popup.style.display = 'none';
 });
 const span3 = document.getElementById('closer2');
 span3.addEventListener('click', () => {
-  popupD.style.display = 'none';
+    popupD.style.display = 'none';
 });
 
-window.onclick = function (event) {
-  if (event.target === popup) {
-    popup.style.display = 'none';
-  }
+window.onclick = function(event) {
+    if (event.target === popup) {
+        popup.style.display = 'none';
+    }
 };
-window.onclick = function (event) {
-  if (event.target === popupD) {
-    popupD.style.display = 'none';
-  }
+window.onclick = function(event) {
+    if (event.target === popupD) {
+        popupD.style.display = 'none';
+    }
 };
